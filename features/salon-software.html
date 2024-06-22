@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon & Spa Software</title>
+    <link rel="shortcut icon" href="../logo1.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Reset and general styles */
+        body, h1, p, ul, li {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-size: cover;
+            /* background: url('https://cdn.pixabay.com/photo/2013/11/08/12/22/saloon-207396_640.jpg') no-repeat center center fixed; */
+            background: url('https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=1350') no-repeat center center fixed;
+            color: #ffffff;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 20px;
+            /* background-color: rgba(243, 156, 18, 0.8); */
+            color: #ffffff;
+            border-radius: 8px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+           
+            background-color: rgba(68, 68, 68, 0.2);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            font-weight: 500;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            padding: 28px 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            margin: 10px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .features li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+            transition: transform 0.3s, color 0.3s;
+            font-weight: 500;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .features li:hover {
+            transform: translateX(10px);
+            background-color: rgba(243, 156, 18, 0.8);
+            color: #ffffff;
+        }
+
+        .features li i {
+            margin-right: 10px;
+            color: #f39c12;
+            font-size: 1.5em;
+            transition: transform 0.3s;
+        }
+
+        .features li:hover i {
+            transform: scale(1.2);
+            color: #ffffff;
+        }
+
+        body.dark-mode .features {
+            background-color: rgba(68, 68, 68, 0.2);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+        }
+
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body class="dark-mode">
+    <header>
+        <h1>Most Advanced Salon & Spa Software For Your Beauty Business</h1>
+        <p>Presenting a GST-ready Salon management software that helps you efficiently manage your Spa & Salon business. It tracks your inventory accurately, helps in accounting & billing, and allows ease in scheduling customers’ appointments.</p>
+    </header>
+    <main class="features">
+        <ul>
+            <li><i class="fas fa-calendar-alt"></i> Appointment Scheduling</li>
+            <li><i class="fas fa-user-clock"></i> Shift Management</li>
+            <li><i class="fas fa-id-card-alt"></i> Beauticians Records</li>
+            <li><i class="fas fa-desktop"></i> Touch/POS Integration</li>
+            <li><i class="fas fa-user-friends"></i> Client Record Management</li>
+            <li><i class="fas fa-gift"></i> Discounts, Schemes, & Loyalty Points</li>
+        </ul>
+    </main>
+</body>
+
+</html>

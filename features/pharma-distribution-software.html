@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavera - Pharma Distribution Software</title>
+    <link rel="shortcut icon" href="../logo1.PNG" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Reset and general styles */
+        body,
+        h1,
+        p,
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: url('https://media.istockphoto.com/id/1150717815/photo/pharmacist-giving-medicine-package-to-customer.jpg?s=612x612&w=0&k=20&c=ytf6VqDP0dAhq0B--alPENi75Hf9fj-By6F7q_TcGGM=') no-repeat center center fixed;
+            background-size: cover;
+            color: #ffffff;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        body.dark-mode {
+            background-color: #333333;
+            color: #ffffff;
+        }
+
+        header {
+            text-align: center;
+            padding: 35px 20px;
+            background-color: rgba(243, 156, 18, 0.8);
+            color: #ffffff;
+            border-radius: 8px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+            background-color: rgba(68, 68, 68, 0.3);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            font-weight: 500;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            padding: 30px 20px;
+            /* background-color: rgba(0, 0, 0, 0.5); */
+            border-radius: 8px;
+            margin: 10px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .features li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            transition: transform 0.3s, color 0.3s;
+            padding: 10px;
+            font-weight: 500;
+
+            border-radius: 5px;
+        }
+
+        .features li:hover {
+            transform: translateX(10px);
+            background-color: rgba(243, 156, 18, 0.8);
+            color: #ffffff;
+        }
+
+        .features li i {
+            margin-right: 10px;
+            color: #f39c12;
+            font-size: 1.5em;
+            transition: transform 0.3s;
+        }
+
+        .features li:hover i {
+            transform: scale(1.2);
+            color: #ffffff;
+        }
+
+        body.dark-mode .features {
+            /* background-color: rgba(68, 68, 68, 0.9); */
+            background-color: rgba(68, 68, 68, 0.2);
+            backdrop-filter: blur(18px);
+            -webkit-backdrop-filter: blur(18px);
+        }
+
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body class="dark-mode">
+    <header>
+        <h1>Manage your Pharma Distribution Business like a PRO</h1>
+        <p>with Marg Pharma Distribution Software</p>
+    </header>
+    <main class="features">
+        <ul>
+            <li><i class="fas fa-users"></i> Specially designed for Stockists, Wholesalers, Distributors, Pharma C&Fs
+            </li>
+            <li><i class="fas fa-file-invoice"></i> Share invoices via WhatsApp/SMS with a PDF, softcopy, & PAY NOW
+                links</li>
+            <li><i class="fas fa-bell"></i> Send Auto-Payment Reminders via WhatsApp</li>
+            <li><i class="fas fa-trash-alt"></i> Ensure 0% losses due to Expiry & Dump Stock</li>
+            <li><i class="fas fa-boxes"></i> Do effortless Stock Management & Accounting</li>
+            <li><i class="fas fa-chart-line"></i> Complete business management to increase your revenues</li>
+            <li><i class="fas fa-file-alt"></i> Uninterrupted GST Billing, Return Filing & E-way Bill</li>
+            <li><i class="fas fa-warehouse"></i> Manage multiple Warehouses & Godowns</li>
+            <li><i class="fas fa-shipping-fast"></i> Increase your sales with easy Shipping & Deliveries</li>
+        </ul>
+    </main>
+</body>
+
+</html>

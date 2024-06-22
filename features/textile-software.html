@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marg Textile Software</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="../logo1.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body, h1, p, ul, li {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: url('https://images.pexels.com/photos/4614216/pexels-photo-4614216.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center fixed;
+            background-size: cover;
+            color: #ffffff;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        body.dark-mode {
+            background-color: #333333;
+            color: #ffffff;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 20px;
+            background-color: rgba(68, 68, 68, 0.2);
+            color: #ffffff;
+            border-radius: 8px;
+            margin:10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(3px);
+            -webkit-backdrop-filter: blur(3px);
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            font-weight: 500;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            padding: 30px 20px;
+            border-radius: 8px;
+            margin:10px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .features li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+            transition: transform 0.3s, color 0.3s;
+            padding: 10px;
+            font-weight: 500;
+            border-radius: 5px;
+        }
+
+        .features li:hover {
+            transform: translateX(10px);
+            background-color: rgba(243, 156, 18, 0.8);
+            color: #ffffff;
+        }
+
+        .features li i {
+            margin-right: 10px;
+            color: #f39c12;
+            font-size: 1.5em;
+            transition: transform 0.3s;
+        }
+
+        .features li:hover i {
+            transform: scale(1.2);
+            color: #ffffff;
+        }
+
+        body.dark-mode .features {
+            background-color: rgba(68, 68, 68, 0.2);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+        }
+
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body class="dark-mode">
+    <header>
+        <h1>#1 Textile Software with Billing, Accounting & Inventory for Textile Business</h1>
+        <p>Simplify your billing to delivery by overcoming common challenges in the Textile industry with Marg Textile Software. Stay updated, manage your textile manufacturing- production, quality, sales, inventory, purchases, customers, finances & more.</p>
+    </header>
+    <main class="features">
+        <ul>
+            <li><i class="fas fa-file-invoice"></i> Easy & Fast Billing</li>
+            <li><i class="fas fa-calendar-times"></i> Expiry Management</li>
+            <li><i class="fas fa-file-import"></i> Import Purchase</li>
+            <li><i class="fas fa-project-diagram"></i> Production Planning and Control</li>
+            <li><i class="fas fa-check-circle"></i> Finished Good Quality Control</li>
+            <li><i class="fas fa-clipboard-check"></i> Quality Assurance</li>
+            <li><i class="fas fa-project-diagram"></i> Production Planning and Control</li>
+            <li><i class="fas fa-shopping-cart"></i> Sales and Distribution</li>
+        </ul>
+    </main>
+</body>
+
+</html>

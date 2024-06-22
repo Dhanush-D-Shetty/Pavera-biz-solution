@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wholesale Distribution Software</title>
+    <link rel="shortcut icon" href="../logo1.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Reset and general styles */
+        body, h1, p, ul, li {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: url('https://media.istockphoto.com/id/584772686/photo/looking-for-a-specific-item.jpg?s=612x612&w=0&k=20&c=bycolZKCy-iPbwzABi_zS7XcrCCSJmy2J9dS5272aHI=') no-repeat center center fixed; /* Replace with a suitable background image URL */
+            background-size: cover;
+            color: #ffffff;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 20px;
+            /* background-color: rgba(243, 156, 18, 0.8); */
+            color: #ffffff;
+            border-radius: 8px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background-color: rgba(68, 68, 68, 0.1);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            font-weight: 500;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            padding: 20px 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            margin: 10px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .features li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 11px;
+            font-size: 1.2em;
+            transition: transform 0.3s, color 0.3s;
+            padding: 8px;
+            font-weight: 500;
+            border-radius: 5px;
+        }
+
+        .features li:hover {
+            transform: translateX(10px);
+            background-color: rgba(243, 156, 18, 0.8);
+            color: #ffffff;
+        }
+
+        .features li i {
+            margin-right: 10px;
+            color: #f39c12;
+            font-size: 1.5em;
+            transition: transform 0.3s;
+        }
+
+        .features li:hover i {
+            transform: scale(1.2);
+            color: #ffffff;
+        }
+
+        body.dark-mode .features {
+            /* background-color: rgba(68, 68, 68, 0.9); */
+            background-color: rgba(68, 68, 68, 0.2);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+        }
+
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body class="dark-mode">
+    <header>
+        <h1>We make wholesale Distribution business easy</h1>
+        <p>with Marg® ERP GST Billing & filing software</p>
+        <p>Marg® Erp is a GST-ready inventory & accounting software that lets generate invoices easily, manage your debtors, finance, reconcile bank transactions, track batch wise inventory in very smart manner, generate 1000’s of reports & MIS, and file GST returns effortlessly.</p>
+    </header>
+    <main class="features">
+        <ul>
+            <li><i class="fas fa-calendar-alt"></i>Reporting</li>
+            <li><i class="fas fa-university"></i> Auto-Bank Reconciliation</li>
+            <li><i class="fas fa-file-alt"></i> E-Way Bill</li>
+            <li><i class="fas fa-chart-line"></i> Sales Analysis on Google Map</li>
+            <li><i class="fas fa-lock"></i> Data Security</li>
+            <li><i class="fas fa-shopping-cart"></i> Purchase & Sale Claim</li>
+        </ul>
+    </main>
+</body>
+
+</html>

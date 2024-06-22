@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavera - Garment Software</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="../logo1.PNG" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body,
+        h1,
+        p,
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: url('https://media.istockphoto.com/id/1057253610/photo/small-business-owener.jpg?s=612x612&w=0&k=20&c=kzwpx0f6FjonycJc5brB2jo5VxKRYWM2JjTBzjaMad8=') no-repeat center center fixed;
+            background-size: cover;
+            color: #ffffff;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        body.dark-mode {
+            background-color: #333333;
+            color: #ffffff;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: rgba(68, 68, 68, 0.1);
+
+            color: #ffffff;
+            border-radius: 8px;
+            margin: 10px;
+            /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            font-weight: 500;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            padding: 30px 20px;
+            /* background-color: rgba(0, 0, 0, 0.5); */
+            border-radius: 8px;
+            margin: 10px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .features li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            transition: transform 0.3s, color 0.3s;
+            padding: 10px;
+            font-weight: 500;
+            border-radius: 5px;
+        }
+
+        .features li:hover {
+            transform: translateX(10px);
+            background-color: rgba(243, 156, 18, 0.8);
+            color: #ffffff;
+        }
+
+        .features li i {
+            margin-right: 10px;
+            color: #f39c12;
+            font-size: 1.5em;
+            transition: transform 0.3s;
+        }
+
+        .features li:hover i {
+            transform: scale(1.2);
+            color: #ffffff;
+        }
+
+        body.dark-mode .features {
+            /* background-color: rgba(68, 68, 68, 0.1); */
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body class="dark-mode">
+    <header>
+        <h1>Best Garment Software to manage your Accounting, Billing, Inventory & more</h1>
+        <p>Effortlessly streamline your entire garment store operations with Marg Garment Billing Software. From billing
+            to stock management to selling, Marg Garment Software empowers you to stay on top of your business, leading
+            to increased sales and more customers.</p>
+    </header>
+    <main class="features">
+        <ul>
+            <li><i class="fas fa-file-invoice"></i> Efficient Billing System</li>
+            <li><i class="fas fa-chart-line"></i> Advanced Sales Tracking</li>
+            <li><i class="fas fa-users"></i> Customer Relationship Management</li>
+        </ul>
+    </main>
+</body>
+
+</html>

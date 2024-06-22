@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavera - Restaurant Billing Software</title>
+
+    <link rel="shortcut icon" href="../logo1.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        body,
+        h1,
+        p,
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: url('https://images.unsplash.com/photo-1551218808-94e220e084d2') no-repeat center center fixed;
+            background-size: cover;
+            color: #ffffff;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 20px;
+            color: #ffffff;
+            border-radius: 8px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+            background-color: rgba(68, 68, 68, 0.1);
+            backdrop-filter: blur(3px);
+            -webkit-backdrop-filter: blur(3px);
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            padding: 25px 20px;
+            background-color: rgba(0, 0, 0, 0);
+            border-radius: 8px;
+            margin: 10px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .features li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 11px;
+            font-weight: 500;
+            font-size: 1.2em;
+            transition: transform 0.3s, color 0.3s;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .features li:hover {
+            transform: translateX(10px);
+            background-color: rgba(243, 156, 18, 0.8);
+            color: #ffffff;
+        }
+
+        .features li i {
+            margin-right: 10px;
+            color: #f39c12;
+            font-size: 1.5em;
+            transition: transform 0.3s;
+        }
+
+        .features li:hover i {
+            transform: scale(1.2);
+            color: #ffffff;
+        }
+
+        body.dark-mode .features {
+            background-color: rgba(68, 68, 68, 0.1);
+            backdrop-filter: blur(3px);
+            -webkit-backdrop-filter: blur(3px);
+        }
+
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body class="dark-mode">
+    <header>
+        <h1>India’s #1 Restaurant Billing Software  With Free POS System</h1>
+
+        <p>Efficiently manage your business with Smart Restaurant Billing System, Complete Order Management, Inventory,
+            Recipe Management, Kitchen Order Ticket System, Kitchen Display System, and many other exciting features.
+        </p>
+    </header>
+    <main class="features">
+        <ul>
+            <li><i class="fas fa-file-invoice"></i> Smart Restaurant Billing System</li>
+            <li><i class="fas fa-tasks"></i> Complete Order Management</li>
+            <li><i class="fas fa-boxes"></i> Inventory Management</li>
+            <li><i class="fas fa-utensils"></i> Recipe Management</li>
+            <li><i class="fas fa-ticket-alt"></i> Kitchen Order Ticket System</li>
+            <li><i class="fas fa-tv"></i> Kitchen Display System</li>
+        </ul>
+    </main>
+</body>
+
+</html>

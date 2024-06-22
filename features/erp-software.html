@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavera - ERP Software</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="../logo1.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body, h1, p, ul, li {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: url('https://images.pexels.com/photos/933964/pexels-photo-933964.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center fixed;
+            background-size: cover;
+            color: #ffffff;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        body.dark-mode {
+            background-color: #333333;
+            color: #ffffff;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 20px;
+            background-color: rgba(68, 68, 68, 0.1);
+            color: #ffffff;
+            border-radius: 8px;
+            margin: 10px;
+            /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            font-weight: 500;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            padding: 30px 20px;
+            border-radius: 8px;
+            margin:10px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .features li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+            transition: transform 0.3s, color 0.3s;
+            padding: 10px;
+            font-weight: 500;
+            border-radius: 5px;
+        }
+
+        .features li:hover {
+            transform: translateX(10px);
+            background-color: rgba(243, 156, 18, 0.8);
+            color: #ffffff;
+        }
+
+        .features li i {
+            margin-right: 10px;
+            color: #f39c12;
+            font-size: 1.5em;
+            transition: transform 0.3s;
+        }
+
+        .features li:hover i {
+            transform: scale(1.2);
+            color: #ffffff;
+        }
+
+        body.dark-mode .features {
+            background-color: rgba(68, 68, 68, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(3px);
+        }
+
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body class="dark-mode">
+    <header>
+        <h1>ERP Software Solutions: Unlock the Full Potential of Your Business</h1>
+        <p>Streamline your business operations with our smart inventory management, accounting, and GST compliance. Easily generate invoices, manage your accounts, reconcile bank transactions, track inventory accurately, and file GST returns with ease.</p>
+    </header>
+    <main class="features">
+        <ul>
+            <li><i class="fas fa-map-marker-alt"></i> Sales Analysis on Google Map</li>
+            <li><i class="fas fa-globe"></i> Web Reporter</li>
+            <li><i class="fas fa-code-branch"></i> Multi Branches GST Compliances</li>
+            <li><i class="fas fa-cogs"></i> Central Control System</li>
+            <li><i class="fas fa-shield-alt"></i> Data Security</li>
+            <li><i class="fas fa-handshake"></i> Collaborative Commerce</li>
+            <li><i class="fas fa-phone-alt"></i> Order Calling</li>
+        </ul>
+    </main>
+</body>
+
+</html>
