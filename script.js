@@ -40,6 +40,8 @@ function toggleModeSwitch() {
     });
   });
 }
+//    vercel crowd data
+window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
 
 scrollNavbar();
 toggleModeSwitch();
