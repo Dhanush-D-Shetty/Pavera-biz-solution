@@ -184,12 +184,12 @@ body.dark-mode .nav-links a:hover {
   }
 }
 
-body.dark-mode .hero .welcome,
+/* body.dark-mode .hero .welcome,
 body.dark-mode .hero .title,
 body.dark-mode .hero p {
   color: #fff;
 }
-
+ */
 
 /*      service section       */
 #services .container {
